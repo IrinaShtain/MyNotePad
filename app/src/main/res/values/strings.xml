@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">MyNotePad</string>
+    <string name="search_title">Search</string>
+    <string name="save_title">Save</string>
+    <string-array name="tabs_array">
+        <item>New</item>
+        <item>Created</item>
+        <item>Important</item>
+    </string-array>
+
+
 </resources>
