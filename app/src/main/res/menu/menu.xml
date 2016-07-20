@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item android:id="@+id/search"
+        android:title="@string/search_title"
+        android:orderInCategory="1"
+        android:icon="@mipmap/ic_magnify"
+        android:showAsAction="always"/>
+    <item android:id="@+id/save"
+        android:title="@string/save_title"
+        android:orderInCategory="1"
+        android:icon="@mipmap/ic_content_save"
+        android:showAsAction="always"/>
+
+</menu>
