@@ -10,9 +10,11 @@ import shtainyky.com.mynotepad.Fragments.FragmentListForCreated;
 import shtainyky.com.mynotepad.R;
 
 public class TabPagerFragmentAdapter extends FragmentPagerAdapter {
-   private String[] tabs;
+    private String[] tabs;
+    private Context context;
     public TabPagerFragmentAdapter(Context context, FragmentManager fm) {
         super(fm);
+        this.context = context;
         tabs = context.getResources().getStringArray(R.array.tabs_array);
 
     }
@@ -30,8 +32,6 @@ public class TabPagerFragmentAdapter extends FragmentPagerAdapter {
                 return new FragmentForNew();
             case 1:
                 return new FragmentListForCreated();
-            case 2:
-                return new FragmentForNew();
         }
         return null;
     }

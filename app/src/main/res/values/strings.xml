@@ -1,11 +1,23 @@
 <resources>
-    <string name="app_name">MyNotePad</string>
+    <string name="app_name">My NotePad</string>
     <string name="search_title">Search</string>
     <string name="save_title">Save</string>
+    <string name="first_text">Hello!\n Please input the subject of your note</string>
+    <string name="theme_here">Theme here</string>
+    <string name="theme">Theme:</string>
+    <string name="create">Create</string>
+    <string name="type_here">Type here</string>
+    <string name="Quit">Quit</string>
+    <string name="empty">Empty list of files</string>
+    <string name="file">File</string>
+    <string name="saved">is saved</string>
+    <string name="text_for_AD">You choose file with name</string>
+    <string name="positive_btn_text">Open and edit</string>
+    <string name="negative_btn_text">Delete</string>
+    <string name="deleted">is deleted!</string>
     <string-array name="tabs_array">
         <item>New</item>
         <item>Created</item>
-        <item>Important</item>
     </string-array>
 
 
